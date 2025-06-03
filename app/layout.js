@@ -12,8 +12,38 @@ const ovo = Ovo({
 
 
 export const metadata = {
-  title: "Sahal KV",
-  description: "",
+  title: "Sahal KV | Portfolio",
+  description: "Welcome to Sahal KV's portfolio website. Explore my work as a web developer, showcasing projects, skills, and professional experience.",
+  keywords: ["Sahal KV", "Sahal", "sahalkv", "web developer", "portfolio", "developer portfolio", "frontend developer", "full stack developer"],
+  authors: [{ name: "Sahal KV" }],
+  creator: "Sahal KV",
+  openGraph: {
+    title: "Sahal KV | Portfolio",
+    description: "Welcome to Sahal KV's portfolio website. Explore my work as a web developer, showcasing projects, skills, and professional experience.",
+    type: "website",
+    locale: "en_US",
+    siteName: "Sahal KV Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sahal KV | Portfolio",
+    description: "Welcome to Sahal KV's portfolio website. Explore my work as a web developer, showcasing projects, skills, and professional experience.",
+    creator: "@sahalkv",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: "your-google-site-verification", // You'll need to add your Google Search Console verification code
+  },
 };
 
 export default function RootLayout({ children }) {
