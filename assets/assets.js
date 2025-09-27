@@ -37,6 +37,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import wordpress from './wordpress.png';
 
 export const assets = {
     user_image,
@@ -75,33 +76,50 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    wordpress
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-        techStack: ['Next.js', 'TypeScript', 'Tailwind', 'React']
+        title: 'AI Resume Analyzer',
+        description: 'Web Application',
+        bgImage: '/work-1.jpg',
+        techStack: ['Next.js', 'TypeScript', 'Tailwind', 'React'],
+        backTitle: 'AI Resume Analyzer',
+        backDescription: 'An intelligent web application that analyzes resumes using AI technology. Built with Next.js and TypeScript, it provides detailed feedback and suggestions for resume improvement.',
+        liveLink: 'https://resume-analyzer.sahalkv.xyz/',
+        githubLink: 'https://github.com/iamsahal77/resume-analyzer'
     },
     {
-        title: 'Geo based app',
+        title: 'Ecommerce ',
+        description: 'Web Application',
+        bgImage: '/work-3.jpg',
+        techStack: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+        backTitle: 'Ecommerce Platform',
+        backDescription: 'A full-stack ecommerce platform built with the MERN stack. Features user authentication, product catalog, and payment integration.',
+        liveLink: 'https://ecommerce.sahalkv.xyz/',
+        githubLink: 'https://github.com/iamsahal77/forever-ecommerce'
+    },
+    {
+        title: 'Personal AI Assistant',
+        description: 'Whatsapp Chatbot',
+        bgImage: '/work-2.jpg',
+        techStack: ['Node.js', 'WhatsApp API', 'OpenAI', 'MongoDB'],
+        backTitle: 'AI Assistant',
+        backDescription: 'An intelligent WhatsApp chatbot powered by AI. Features natural language processing and automated customer support capabilities.',
+        liveLink: '#',
+        githubLink: '#'
+    },
+    {
+        title: 'Food Delivery App',
         description: 'Mobile App',
-        bgImage: '/work-2.png',
-        techStack: ['React Native', 'Expo', 'Firebase']
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-        techStack: ['Gatsby', 'GraphQL', 'Styled Components']
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-        techStack: ['Figma', 'Adobe XD']
+        bgImage: '/work-4.jpg',
+        techStack: ['React Native', 'Firebase', 'Redux', 'Google Maps'],
+        backTitle: 'Food Delivery App',
+        backDescription: 'A comprehensive food delivery mobile application built with React Native. Features restaurant browsing, real-time order tracking, GPS navigation, and payment processing.',
+        liveLink: '#',
+        githubLink: '#'
     },
 ]
 
@@ -119,5 +137,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.wordpress
 ];
